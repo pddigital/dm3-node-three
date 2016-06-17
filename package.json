@@ -1,0 +1,26 @@
+{
+  "name": "dm3-node-three",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pddigital/dm3-node-three.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pddigital/dm3-node-three/issues"
+  },
+  "homepage": "https://github.com/pddigital/dm3-node-three#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-session": "^1.13.0"
+  }
+}

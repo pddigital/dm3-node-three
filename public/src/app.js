@@ -4,7 +4,8 @@ angular.module( `nodeThree`, [ `ui.router` ] )
 	$stateProvider
 		.state( `home`, {
 			url: `/`,
-			templateUrl: `src/home/home.html`
+			templateUrl: `src/home/home.html`,
+			controller: 'homeCtrl'
 		} )
 		.state( `profile`, {
 			url: `/profile`,
@@ -12,4 +13,7 @@ angular.module( `nodeThree`, [ `ui.router` ] )
 		} );
 
 	$urlRouterProvider.otherwise( `/` );
-} );
+})
+.constant(`url`, {
+		baseUrl: `http://localhost:8081`
+})
